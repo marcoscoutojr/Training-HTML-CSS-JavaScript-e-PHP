@@ -1,0 +1,56 @@
+/*
+ * :: GENERAL ::
+ */
+
+
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+section{
+    width: 100%;
+}
+
+.nav-toggle{
+    transform: translateX(-30rem)
+}
+
+/* Button */
+
+.btn{
+    height: 3.5rem;
+    width: 15rem;
+    background: var(--red);
+    color: #fff;
+    border-radius: .5rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+    margin: 1rem 0;
+    box-shadow: 0 .3rem .5rem var(--red);
+    opacity: .7;
+    &:hover{
+        opacity: 1;
+    }
+}
+
+/* heading/title */
+
+.heading{
+    text-align: center;
+    padding:.5rem 1rem;
+    padding-top: 2rem;
+    font-size: 3.5rem;
+    color: var(--red);
+    text-transform: uppercase;
+}
+.title{
+    text-align: center;
+    padding: 0rem 1rem;
+    font-size: 3rem;
+    color:#666;
+    font-weight: lighter;
+}
+
+

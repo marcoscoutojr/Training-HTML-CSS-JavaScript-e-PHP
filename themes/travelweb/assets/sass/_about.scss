@@ -1,0 +1,54 @@
+/*
+ * :: ABOUT ::
+ */
+
+
+
+.about{
+    .row{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        margin: 2rem auto;
+        padding: 2rem;
+        .image{
+            img{
+                height: 60vh;
+                width: 30vw;
+            }
+        }
+        .content{
+            h3{
+                font-size: 3rem;
+                color: var(--red);
+            }
+            p{
+                font-size: 1.7rem;
+                color: #666;
+                padding: 1rem 0;
+            }
+        }
+    }
+    .box-container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        .box{
+            margin: 2rem;
+            height: 15rem;
+            width: 25rem;
+            border-radius: 1rem;
+            background: var(--red);
+            text-align: center;
+            color: #fff;
+            i{
+                font-size: 5rem;
+                margin: 2rem 0;
+            }
+            h3{
+                font-size: 2rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "name": "marcoscoutojr/travel",
+    "description": "Website | Tours & Travel",
+    "minimum-stability":"stable",
+    "authors": [{
+            "name":"Marcos Couto Jr.",
+            "email":"suporte@arphemj.com.br",
+            "homepage":"https://www.arphemj.com.br",
+            "role":"Developer"
+    }],
+    "config":{
+        "vendor-dir": "vendor"
+    },
+    "autoload":{
+        "psr-4":{
+            "Source\\":"source/"
+        },
+        "files":[
+            "source/Boot/Config.php",
+            "source/Boot/Helpers.php"
+        ]
+    },
+    "require": {
+        "league/plates": "v4.0.0-alpha",
+        "coffeecode/router": "1.0.*",
+        "coffeecode/optimizer": "2.0.*"
+    }
+}

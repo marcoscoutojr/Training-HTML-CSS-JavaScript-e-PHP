@@ -1,0 +1,47 @@
+/*
+ * :: MEDIA QUERIES ::
+ */
+
+
+/* media 768px */
+
+@media (max-width:768px){
+    html{
+        font-size: 55%;
+    }
+    
+    .about{
+        .row{
+            flex-flow: column;
+            .image{
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    
+}
+
+/* media 500px */
+
+@media (max-width:500px){
+    html{
+        font-size: 50%;
+    }
+    
+    .home{
+        .content{
+            width: 100%;
+        }
+    }
+    
+    .about{
+        .row .image img{
+            width: 100%;
+            height: auto;
+        }
+        
+    }
+}
+

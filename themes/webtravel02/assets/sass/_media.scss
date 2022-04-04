@@ -1,0 +1,47 @@
+/*
+ * :: MEDIA QUERIES ::
+ */
+
+
+
+/* media 768px */
+
+@media (max-width: 768px){
+    html{
+        font-size: 55%;
+    }
+    header{
+        .fa-bars{
+            display: block;
+        }
+        .navbar{
+            position: fixed;
+            top: -100rem;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100%;
+            background-color: #fff;
+            border-radius: .5rem;
+            box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
+            z-index: 1000;
+            transition: .2s linear;
+            opacity: 0;
+            &.nav-toggle{
+                top: 5.5rem;
+                opacity: 1;
+            }
+            ul{
+                flex-flow: column;
+                li{
+                    margin: 1rem 0;
+                    width: 100%;
+                    text-align: center;
+                    a{
+                        display: block;
+                        font-size: 3rem;
+                    }
+                }
+            }
+        }
+    }
+}
